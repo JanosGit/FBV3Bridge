@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DocumentSavedAutomatically</key>
+	<string>NO</string>
+	<key>DocumentSavedByUser</key>
+	<string>YES</string>
+	<key>LineInputVisible</key>
+	<string>NO</string>
+	<key>Logging</key>
+	<dict>
+		<key>LoggingFilename</key>
+		<string>Amp_FBV_Communication</string>
+		<key>LoggingFolder</key>
+		<string>/Volumes/Daten/Benutzerordner/Entwicklung/FBV3Bridge</string>
+		<key>LoggingIsOn</key>
+		<string>YES</string>
+		<key>LoggingLogType</key>
+		<string>0</string>
+		<key>LoggingMode</key>
+		<string>1</string>
+	</dict>
+	<key>Scripting</key>
+	<dict>
+		<key>VarStrings</key>
+		<dict/>
+	</dict>
+	<key>Serial</key>
+	<dict>
+		<key>AMSerialOptionDataBits</key>
+		<string>8</string>
+		<key>AMSerialOptionServiceName</key>
+		<string>usbmodem524</string>
+		<key>AMSerialOptionSpeed</key>
+		<string>38400</string>
+		<key>AMSerialOptionStopBits</key>
+		<string>1</string>
+	</dict>
+	<key>StartScriptEntryPoint</key>
+	<string></string>
+	<key>StatusBarVisible</key>
+	<string>YES</string>
+	<key>Terminal</key>
+	<dict>
+		<key>BackgroundColor</key>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWE
+		AWMDhAJmZgEBhg==
+		</data>
+		<key>Columns</key>
+		<string>80</string>
+		<key>FontName</key>
+		<string>Monaco</string>
+		<key>FontSize</key>
+		<string>10</string>
+		<key>TextColor</key>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWE
+		AWMDhAJmZgABhg==
+		</data>
+	</dict>
+	<key>ToolbarVisible</key>
+	<string>YES</string>
+	<key>Transfer</key>
+	<dict>
+		<key>DownloadFolder</key>
+		<string>receive</string>
+		<key>ZModemDownloadArguments</key>
+		<string>-t 100</string>
+		<key>ZModemDownloadExecutable</key>
+		<string>lrz</string>
+		<key>ZModemUploadArguments</key>
+		<string>-t 100</string>
+		<key>ZModemUploadExecutable</key>
+		<string>lsz</string>
+	</dict>
+	<key>WindowFrame</key>
+	<string>{{353, 299}, {508, 416}}</string>
+</dict>
+</plist>
