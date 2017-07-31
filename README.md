@@ -10,10 +10,14 @@ The projects consists of a small PCB, interfacing the RS485 over RJ45 connection
 
 The software for the Teensy has two modes of operation: If both an amp and an FBV3 Board are plugged in, it logs the communication between the two endpoints and prints it in human-readable form to the USB-Serial output. If no amp is plugged in, it sends the same initialization-sequence an amp would send to the FBV3 board and redirects the in/out data streams byte-transparent to the USB-Serial port afterwards.
 
-This way, the protocol of the FBV3 can be reverse-engineered in the first step and then be used to implement a MAX for Live device that will be used to control Ableton Live through the FVB3.
+This way, the protocol of the FBV3 can be reverse-engineered in the first step and then be used to implement a Max for Live device that will be used to control Ableton Live through the FVB3.
 
 Here you see a screenshot of the serial communication logged
 
-![goSerial Screenshot](Doc/Images/goSerial_sreenshot.jpg "goSerial Screenshot")
+![goSerial screenshot](Doc/Images/goSerial_sreenshot.jpg "goSerial Screenshot")
 
-What's known is that the messages alway contain of the start byte 0xF0, followed by a byte specifying the length of the message (excluding the start byte and the length byte). The rest will be found out by reverse engineering!
+What's known is that the messages alway contain of the start byte 0xF0, followed by a byte specifying the length of the message (excluding the start byte and the length byte). This can be noticed in the log above. Furthermore, I already found the exact sequences to control the red LEDs and the LCD display. With that knowledge, I created a demo Max patcher:
+
+![Max screenshot](Doc/Images/Max_patcher.tiff "Max screenshot")
+
+To The rest will be found out by reverse engineering!
