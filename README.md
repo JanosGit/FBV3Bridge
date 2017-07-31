@@ -1,9 +1,11 @@
 # FBV3Bridge
 PJRC Teensy 3.2 based device to interface a Line 6 FBV3 to a USB-Serial Port to access its functionality through Max for Live or Max/MSP
 
-Inspired by some other projects out there, that have successfully interfaced the older FBV-range boards, the goal of this project is to make use of the extended functionality of the FBV3 Board - most of all the RGB-LEDs.
+Inspired by some other projects out there ([this one by rasmartins](https://github.com/rasmartins/fbv2kpa) and [this one by wrbi](https://github.com/wrbi/FBV2MIDI)), that have successfully interfaced the older FBV-range boards, the goal of this project is to make use of the extended functionality of the FBV3 Board - most of all the RGB-LEDs.
 
-The projects consists of a small PCB, interfacing the RS485 over RJ45 connection used by Line 6 to the Teensy. Furthermore, it powers the FBV3 with 9V over the USB connection with the help of a step-up-converter.
+Within this project, I'm responsible of designing the hardware prototype, inlcuding some simple teensy programming and doing a quick proof-of-concept on the PC-Software side. All the following Max-based work and protocol reverse engineering will be done by [Soundmanufacture](http://soundmanufacture.net/index.html).
+
+The projects consists of a small PCB, interfacing the RS485 over RJ45 connection used by Line 6 to the Teensy's UART ports. Furthermore, it powers the FBV3 with 9V over the USB connection with the help of a [step-up-converter](http://www.exp-tech.de/pololu-9v-step-up-spannungsregler-u3v12f9?gclid=EAIaIQobChMIjeqa2Kyz1QIVxZ0bCh1xqQB0EAQYAiABEgIhRfD_BwE).
 
 ![Hardware top view](Doc/Images/Hardware_top.jpg "Hardware top view")
 ![Hardware bottom view](Doc/Images/Hardware_bottom.jpg "Hardware bottom view")
