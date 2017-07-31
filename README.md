@@ -20,4 +20,4 @@ What's known is that the messages alway contain of the start byte 0xF0, followed
 
 ![Max screenshot](Doc/Images/Max_patcher.tiff "Max screenshot")
 
-To The rest will be found out by reverse engineering!
+The rest will be found out by reverse engineering!
