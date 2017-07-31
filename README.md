@@ -23,7 +23,7 @@ Here you see a screenshot of the serial communication logged while the device wa
 ![goSerial screenshot](Doc/Images/goSerial_sreenshot.jpg "goSerial Screenshot")
 
 In this mode, the amp and the FBV3 behave just like there wouldn't be anything more than a cable connecting them.
-In the second mode, the Teensy sends an initialization sequence (actually, completely the same sequence as the Line 6 Spider Amp I had here sent - I just sent the content sent to the LCD display). So it boots up like this:
+In the second mode, the Teensy sends an initialization sequence (actually, completely the same sequence as the Line 6 Spider Amp I had here sent - I just changed the content sent to the LCD display). So it boots up like this:
 
 ![Teensy initialized the FBV3](Doc/Images/IMG_1955.JPG "Teensy initialized the FBV3")
 
