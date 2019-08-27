@@ -10,7 +10,7 @@ Within this project, I'm responsible of designing the hardware that acts as brid
 You'll find a first proof-of-cocept Max patcher that allows setting the colours of nearly all Button LEDs as well as reading the state of the buttons and the expression pedal in the "Max" subfolder of this repository.
 
 ![Max screenshot](Doc/Images/Max_patcher.png "Max screenshot")
-![FBV3 with colourful buttons set by the patch](Doc/Images/FBV3_Colourful.JPG "FBV3 with colourful buttons set by the patch")
+![FBV3 with colourful buttons set by the patch](Doc/Images/FBV3_Colourful.jpg "FBV3 with colourful buttons set by the patch")
 
 ## The hardware
 
